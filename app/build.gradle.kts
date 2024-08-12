@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.hilt)
     id(libs.plugins.kotlin.plugin.serialization.get().pluginId)
     kotlin(libs.plugins.kapt.get().pluginId)
 }
