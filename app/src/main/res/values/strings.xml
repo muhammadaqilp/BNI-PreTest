@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">BNI PreTest</string>
+    <string name="retry">Retry</string>
+    <string name="promo_list">Promo List</string>
+    <string name="promo_detail">Promo Detail</string>
+    <string name="voucher_available">x%d</string>
+    <string name="voucher_name">Voucher Name</string>
+    <string name="voucher_desc">Voucher Description</string>
+    <string name="voucher_location">Location of Voucher Redemption</string>
+    <string name="voucher_redeem_location">This Voucher Can Redeemed in %s</string>
+    <string name="voucher_availability">Voucher Availability</string>
+    <plurals name="voucher_count">
+        <item quantity="one">%d Voucher</item>
+        <item quantity="other">%d Vouchers</item>
+    </plurals>
 </resources>
