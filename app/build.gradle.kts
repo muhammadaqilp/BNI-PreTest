@@ -82,6 +82,11 @@ dependencies {
     //retrofit
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.gson)
+    implementation(libs.retrofit.adapter.rxjava)
+
+    //rxjava
+    implementation(libs.rxjava)
+    implementation(libs.rxAndroid)
 
     //unit test
     testImplementation(libs.junit)
