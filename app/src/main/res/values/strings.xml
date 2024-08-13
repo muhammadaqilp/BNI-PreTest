@@ -12,4 +12,5 @@
     <string name="pay_trx">Pay</string>
     <string name="ok">OK</string>
     <string name="payment_successful">Payment Successful</string>
+    <string name="empty_history">No Data. Your Transaction History is Empty</string>
 </resources>
