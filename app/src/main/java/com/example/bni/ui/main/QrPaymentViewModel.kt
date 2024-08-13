@@ -1,9 +1,9 @@
-package com.example.bni.ui
+package com.example.bni.ui.main
 
 import androidx.lifecycle.ViewModel
-import com.example.bni.ui.screen.event.PaymentEvent
-import com.example.bni.ui.state.BalanceState
-import com.example.bni.ui.state.HistoryTransactionState
+import com.example.bni.ui.main.screen.event.PaymentEvent
+import com.example.bni.ui.main.state.BalanceState
+import com.example.bni.ui.main.state.HistoryTransactionState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

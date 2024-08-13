@@ -1,4 +1,4 @@
-package com.example.bni.ui.screen.event
+package com.example.bni.ui.main.screen.event
 
 sealed class PaymentEvent {
     data object InitializeData : PaymentEvent()

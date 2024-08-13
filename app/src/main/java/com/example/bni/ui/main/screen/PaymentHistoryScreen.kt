@@ -1,4 +1,4 @@
-package com.example.bni.ui.screen
+package com.example.bni.ui.main.screen
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -11,9 +11,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.bni.R
-import com.example.bni.ui.screen.component.HistoryItem
+import com.example.bni.ui.main.screen.component.HistoryItem
+import com.example.bni.ui.main.state.HistoryTransactionState
 import com.example.bni.ui.screen.component.TopAppBar
-import com.example.bni.ui.state.HistoryTransactionState
 
 @Composable
 fun PaymentHistoryScreen(state: List<HistoryTransactionState> = listOf(), onFinish: () -> Unit) {

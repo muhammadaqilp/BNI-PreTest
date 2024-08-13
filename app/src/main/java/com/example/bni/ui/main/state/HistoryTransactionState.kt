@@ -1,4 +1,4 @@
-package com.example.bni.ui.state
+package com.example.bni.ui.main.state
 
 data class HistoryTransactionState(
     val merchantName: String = "",

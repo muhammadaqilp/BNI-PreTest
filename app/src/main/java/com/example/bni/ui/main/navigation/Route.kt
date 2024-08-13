@@ -1,4 +1,4 @@
-package com.example.bni.ui.navigation
+package com.example.bni.ui.main.navigation
 
 import kotlinx.serialization.Serializable
 

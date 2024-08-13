@@ -1,4 +1,4 @@
-package com.example.bni.ui.screen.component
+package com.example.bni.ui.main.screen.component
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -15,7 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.bni.ui.state.HistoryTransactionState
+import com.example.bni.ui.main.state.HistoryTransactionState
 import com.example.bni.utils.toFormat
 
 @Composable

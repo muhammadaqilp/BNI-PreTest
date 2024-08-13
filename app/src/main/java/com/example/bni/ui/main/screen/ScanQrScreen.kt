@@ -1,4 +1,4 @@
-package com.example.bni.ui.screen
+package com.example.bni.ui.main.screen
 
 import android.util.Log
 import androidx.camera.core.CameraSelector

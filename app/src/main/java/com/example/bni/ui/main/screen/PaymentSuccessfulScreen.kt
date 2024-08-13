@@ -1,4 +1,4 @@
-package com.example.bni.ui.screen
+package com.example.bni.ui.main.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -16,7 +16,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.bni.R
-import com.example.bni.ui.screen.component.CommonButton
+import com.example.bni.ui.main.screen.component.CommonButton
 import com.example.bni.utils.toFormat
 
 @Composable

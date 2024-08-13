@@ -1,4 +1,4 @@
-package com.example.bni.ui
+package com.example.bni.ui.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

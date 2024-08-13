@@ -1,4 +1,4 @@
-package com.example.bni.ui
+package com.example.bni.ui.main
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -10,17 +10,17 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
-import com.example.bni.ui.navigation.Dashboard
-import com.example.bni.ui.navigation.History
-import com.example.bni.ui.navigation.PaymentDetail
-import com.example.bni.ui.navigation.PaymentSuccessful
-import com.example.bni.ui.navigation.ScanQr
-import com.example.bni.ui.screen.DashboardScreen
-import com.example.bni.ui.screen.PaymentDetailScreen
-import com.example.bni.ui.screen.PaymentHistoryScreen
-import com.example.bni.ui.screen.PaymentSuccessfulScreen
-import com.example.bni.ui.screen.ScanQrScreen
-import com.example.bni.ui.screen.event.PaymentEvent
+import com.example.bni.ui.main.navigation.Dashboard
+import com.example.bni.ui.main.navigation.History
+import com.example.bni.ui.main.navigation.PaymentDetail
+import com.example.bni.ui.main.navigation.PaymentSuccessful
+import com.example.bni.ui.main.navigation.ScanQr
+import com.example.bni.ui.main.screen.DashboardScreen
+import com.example.bni.ui.main.screen.PaymentDetailScreen
+import com.example.bni.ui.main.screen.PaymentHistoryScreen
+import com.example.bni.ui.main.screen.PaymentSuccessfulScreen
+import com.example.bni.ui.main.screen.ScanQrScreen
+import com.example.bni.ui.main.screen.event.PaymentEvent
 
 @Composable
 fun QrPaymentApp(

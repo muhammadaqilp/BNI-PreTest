@@ -1,4 +1,4 @@
-package com.example.bni.ui.screen.component
+package com.example.bni.ui.main.screen.component
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
