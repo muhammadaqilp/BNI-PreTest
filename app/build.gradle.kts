@@ -71,6 +71,7 @@ dependencies {
 
     //compose navigation
     implementation(libs.androidx.compose.navigation)
+    implementation(libs.androidx.hilt.navigation.compose)
 
     //serialization
     implementation(libs.kotlinx.serialization)
