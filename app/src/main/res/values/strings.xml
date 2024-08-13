@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">BNI PreTest</string>
+    <string name="welcome_dashboard">Welcome to BNI PreTest App!</string>
+    <string name="current_balance">Your Current Balance is %s</string>
+    <string name="scan_qris">Scan QRIS</string>
+    <string name="view_trx_history">View Transaction History</string>
+    <string name="trx_history">Transaction History</string>
+    <string name="qris_payment_detail">QRIS Payment Detail</string>
+    <string name="merchant_name">Merchant Name</string>
+    <string name="trx_amount">Transaction Amount</string>
+    <string name="trx_id">Transaction ID</string>
+    <string name="pay_trx">Pay</string>
+    <string name="ok">OK</string>
+    <string name="payment_successful">Payment Successful</string>
 </resources>
