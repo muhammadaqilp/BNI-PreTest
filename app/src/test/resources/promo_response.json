@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "attributes": {
+        "title": "Test Title CCVVXZ",
+        "count": 43,
+        "alt": 23,
+        "desc": "The leather jacked showed the scars of being his favorite for years. It wore those scars with pride, feeling that they enhanced his presence rather than diminishing it. The scars gave it character and had not overwhelmed to the point that it had become ratty. The jacket was in its prime and it knew it.",
+        "desc_promo": "The leather jacked",
+        "latitude": "-74.394369688733",
+        "longitude": "172.516040498344",
+        "lokasi": "Somewhere",
+        "nama": "jacked",
+        "name_promo": "jacked",
+        "createdAt": "2023-11-01T09:37:26.204Z",
+        "updatedAt": "2024-02-20T12:51:24.997Z"
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "title": "The mailbox",
+        "count": 68,
+        "alt": 74,
+        "desc": "The boxed moved. That was a problem. Peter had packed the box three hours before and there was nothing inside that should make it move. The question now was whether or not Peter was going to open it up and look inside to see why it had moved. The answer to that question was obvious. Peter dropped the package into the mailbox so he would never have to see it again.",
+        "desc_promo": "The mailbox",
+        "latitude": "-28.491752292671",
+        "longitude": "10.963062985284",
+        "lokasi": "Somewhere",
+        "nama": "mailbox",
+        "name_promo": "mailbox",
+        "createdAt": "2023-11-01T09:50:02.692Z",
+        "updatedAt": "2023-11-06T08:37:06.208Z"
+      }
+    },
+    {
+      "id": 1,
+      "attributes": {
+        "title": "Test Title XXZZ",
+        "count": 14,
+        "alt": 17,
+        "desc": "Potongan langsung (diskon) Rp 150.000,- untuk minimal transaksi Rp 1.000.000, kuota 15 transaksi pertama per hari.\\n- Berlaku tiap Kamis dan Jumat.\\n- Berlaku untuk pembelian Tiket Sriwijaya Air dan NAM Air di Website dan Mobile Apps Sriwijaya Air\\n- Potongan harga langsung diperoleh ketika nomor Kartu BNI dimasukkan (tanpa kode promo)\\n- Syarat dan ketentuan berlaku\\nInfo lebih lanjut hubungi BNI Call 1500046",
+        "desc_promo": "<null>",
+        "latitude": "-6.203606",
+        "longitude": "106.803022",
+        "lokasi": "Pejompongan",
+        "nama": "BNI Credit Card",
+        "name_promo": "<null>",
+        "createdAt": "2023-10-31T20:02:23.175Z",
+        "updatedAt": "2024-02-20T12:48:27.489Z"
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "title": "Test Title CCVV",
+        "count": 28,
+        "alt": 19,
+        "desc": "It was a simple tip of the hat. Grace didn't think that anyone else besides her had even noticed it. It wasn't anything that the average person would notice, let alone remember at the end of the day. That's why it seemed so unbelievable that this little gesture would ultimately change the course of the world.",
+        "desc_promo": " the hat",
+        "latitude": "-82.031063965501",
+        "longitude": "-124.612081930480",
+        "lokasi": "Somewhere",
+        "nama": "hat",
+        "name_promo": "hat",
+        "createdAt": "2023-11-01T09:42:38.452Z",
+        "updatedAt": "2024-02-20T12:50:57.713Z"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 4
+    }
+  }
+}
