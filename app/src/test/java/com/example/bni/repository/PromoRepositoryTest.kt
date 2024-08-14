@@ -25,6 +25,8 @@ class PromoRepositoryTest {
 
         val response = portfolioRepository.getPortfolioData()
         assertEquals(mappedResponse, response)
+        assertEquals(mappedResponse.donutChartData, response.donutChartData)
+        assertEquals(mappedResponse.lineChartData, response.lineChartData)
     }
 
 }
