@@ -1,7 +1,7 @@
 package com.example.bni.promo.viewmodel
 
 import com.example.bni.model.PromoModel
-import com.example.bni.repository.PromoRepository
+import com.example.bni.repository.IPromoRepository
 import com.example.bni.ui.main.PromoViewModel
 import com.example.bni.ui.main.screen.event.PromoEvent
 import com.example.bni.ui.main.state.PromoState
@@ -22,7 +22,7 @@ class PromoViewModelTest {
     private lateinit var viewModel: PromoViewModel
 
     @Mock
-    private lateinit var promoRepository: PromoRepository
+    private lateinit var promoRepository: IPromoRepository
 
     private val trampolineScheduler = Schedulers.trampoline()
     private val trampolineSchedulerProvider = TestSchedulerProvider(trampolineScheduler)
