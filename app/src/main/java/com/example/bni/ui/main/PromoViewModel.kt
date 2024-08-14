@@ -1,7 +1,7 @@
 package com.example.bni.ui.main
 
 import androidx.lifecycle.ViewModel
-import com.example.bni.repository.PromoRepository
+import com.example.bni.repository.IPromoRepository
 import com.example.bni.ui.main.screen.event.PromoEvent
 import com.example.bni.ui.main.state.PromoState
 import com.example.bni.util.disposedBy
@@ -15,7 +15,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class PromoViewModel @Inject constructor(
-    private val promoRepository: PromoRepository,
+    private val promoRepository: IPromoRepository,
     private val schedulerProvider: SchedulerProvider
 ) : ViewModel() {
 
