@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">BNI PreTest</string>
+    <string name="transaction_history_title">Transaction History for %s</string>
+    <string name="portfolio_line_chart">Portfolio with Line Chart</string>
+    <string name="portfolio_donut_chart">Portfolio with Donut Chart</string>
 </resources>
