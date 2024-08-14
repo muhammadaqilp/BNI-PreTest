@@ -10,7 +10,7 @@ class PromoRepository @Inject constructor(
 ) : IPromoRepository {
     override fun getPromo(): Flowable<List<PromoModel>> {
         return promoApi.getListPromo().map {
-            if (it.data?.isNotEmpty() == true) {
+            if (it.data != null) {
                 it
             } else {
                 throw Exception(it.error?.message)
