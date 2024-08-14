@@ -1,4 +1,4 @@
-package com.example.bni.promo
+package com.example.bni.promo.viewmodel
 
 import com.example.bni.model.PromoModel
 import com.example.bni.repository.PromoRepository
