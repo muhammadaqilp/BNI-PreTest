@@ -19,6 +19,9 @@ retrofitVersion = "2.11.0"
 retrofitAdapterRxJava2 = "2.11.0"
 rxJava = "2.2.21"
 rxAndroid = "2.1.1"
+mockk = "1.13.11"
+mockito = "5.12.0"
+mockitoInline = "5.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -48,6 +51,10 @@ retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-
 retrofit-adapter-rxjava = { group = "com.squareup.retrofit2", name = "adapter-rxjava2", version.ref = "retrofitAdapterRxJava2" }
 rxjava = { group = "io.reactivex.rxjava2", name = "rxjava", version.ref = "rxJava" }
 rxAndroid = { group = "io.reactivex.rxjava2", name = "rxandroid", version.ref = "rxAndroid" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
+mockito-inline = { group = "org.mockito", name = "mockito-inline", version.ref = "mockitoInline" }
+mockito-junit-jupiter = { group = "org.mockito", name = "mockito-junit-jupiter", version.ref = "mockito" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
